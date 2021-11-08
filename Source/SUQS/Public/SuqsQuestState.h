@@ -29,7 +29,7 @@ enum class ESuqsQuestStatus : uint8
 /**
  * Quest state
  */
-UCLASS()
+UCLASS(BlueprintType, Blueprintable)
 class SUQS_API USuqsQuestState : public UObject
 {
 	GENERATED_BODY()
